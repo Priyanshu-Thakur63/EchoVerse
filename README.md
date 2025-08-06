@@ -11,7 +11,6 @@ EchoVerse is a fictional startup concept where users can send **voice messages t
 ## 🚀 Live Demo
 
 🌐 [Visit EchoVerse Live](https://your-deployment-link.netlify.app/)  
-> *(Replace the link above with your actual Netlify or Vercel deployment link)*
 
 ---
 
@@ -32,31 +31,3 @@ EchoVerse is a fictional startup concept where users can send **voice messages t
 - ❌ No external libraries or frameworks used
 
 ---
-
-## 📂 File Structure
-
-)  
-> *(Replace the link above with your actual Netlify or Vercel deployment link)*
-
----
-
-## ✨ Features
-
-- 🌀 **Animated Wavy Heading** with pure CSS `@keyframes`
-- 🎨 Beautiful gradient text using `background-clip`
-- 💬 Engaging one-liner subtitle that tells the story
-- 🔘 Call-to-action button (CTA)
-- 💻 Fully responsive and clean layout
-
----
-
-## 🧪 Tech Stack
-
-- ✅ HTML5 (semantic structure)
-- ✅ CSS3 (external styling with animations)
-- ❌ No external libraries or frameworks used
-
----
-
-## 📂 File Structure
-
