@@ -10,7 +10,7 @@ EchoVerse is a fictional startup concept where users can send **voice messages t
 
 ## 🚀 Live Demo
 
-🌐 [Visit EchoVerse Live](https://your-deployment-link.netlify.app/)  
+🌐 [Visit EchoVerse Live](https://echo-verse-ashy.vercel.app/)  
 
 ---
 
