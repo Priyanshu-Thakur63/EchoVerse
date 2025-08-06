@@ -1,0 +1,67 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(circle at top, #0f172a, #0a0a23);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  max-width: 600px;
+}
+
+/* Animated Wavy Text */
+.wave {
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block;
+  background: linear-gradient(45deg, #38bdf8, #6366f1);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Chrome & Safari */
+  color: transparent;
+  animation: waveAnimation 2s infinite ease-in-out;
+}
+
+
+@keyframes waveAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Subtitle */
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+/* CTA Button */
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(to right, #38bdf8, #6366f1);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.cta:hover {
+  background: linear-gradient(to right, #6366f1, #38bdf8);
+}
