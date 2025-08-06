@@ -1,55 +1,80 @@
-/* Tagline */
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
 .tagline {
-  font-size: 1.1rem;
-  margin-top: 0.5rem;
-  color: #9ca3af;
-  max-width: 600px;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
 }
 
-/* CTA Button */
-.cta-btn {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background: linear-gradient(90deg, #38bdf8, #6366f1);
-  color: white;
-  font-size: 1.1rem;
+.cta-button {
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 0.8rem 1.6rem;
   border: none;
-  border-radius: 50px;
+  border-radius: 8px;
+  font-weight: bold;
   text-decoration: none;
-  transition: 0.3s ease;
-  box-shadow: 0 0 15px #38bdf88a;
+  font-size: 1rem;
+  transition: background 0.3s ease;
 }
 
-.cta-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px #6366f1aa;
+.cta-button:hover {
+  background-color: #0ea5e9;
 }
 
 /* Story Section */
 .story {
-  margin-top: 5rem;
-  padding: 2rem;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #d1d5db;
-  font-size: 1.05rem;
-  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
   text-align: center;
 }
 
 .story h2 {
   font-size: 2rem;
+  color: #f472b6;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, #38bdf8, #6366f1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.story p {
+  margin-bottom: 1rem;
+  color: #cbd5e1;
+}
+
+.launch-soon {
+  font-weight: bold;
+  color: #facc15;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 2rem;
-  margin-top: 4rem;
-  color: #6b7280;
+  margin-top: 5rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
 }
